@@ -1,4 +1,4 @@
-class Jokes {
+export class Jokes {
   constructor() {
     this.tombolJokes = document.querySelector("#jokes-receh");
     this.modalBody = document.querySelector(".modal-body");
@@ -12,5 +12,3 @@ class Jokes {
     this.tombolJokes.addEventListener("click", cb);
   }
 }
-
-module.exports = Jokes;

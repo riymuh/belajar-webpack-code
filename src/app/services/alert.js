@@ -1,5 +1,5 @@
-const cekInputValid = require("../utils/cekInputValid");
-class Alert {
+import { cekInputValid } from "../utils/cekInputValid.js";
+export class Alert {
   constructor() {
     this.error = document.querySelector("#error");
   }
@@ -19,5 +19,3 @@ class Alert {
 
   sembunyikanError = () => this.error.classList.add("d-none");
 }
-
-module.exports = Alert;
