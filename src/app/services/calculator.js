@@ -18,3 +18,5 @@ class Calculator {
     this.tombolTambah.addEventListener("click", cb);
   }
 }
+
+module.exports = Calculator;

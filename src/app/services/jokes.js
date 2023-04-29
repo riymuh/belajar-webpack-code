@@ -12,3 +12,5 @@ class Jokes {
     this.tombolJokes.addEventListener("click", cb);
   }
 }
+
+module.exports = Jokes;
